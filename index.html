@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Shaxsiy Sahifam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="shamshodbek.jpg" alt="Shamshodbek O'ngboyev" class="profile-img" 
+                 onerror="this.src='https://via.placeholder.com/180/667eea/ffffff?text=SI'">
+            
+            <h1 class="name" id="name">Shamshodbek O'ngboyev</h1>
+            <p class="title" id="title">Matematika va Informatika Talabasi</p>
+            
+            <div class="language-buttons">
+                <button class="lang-btn active" onclick="changeLanguage('uz')">O'zbekcha</button>
+                <button class="lang-btn" onclick="changeLanguage('ru')">Русский</button>
+            </div>
+        </div>
+
+        <!-- O'zbekcha kontent -->
+        <div id="content-uz">
+            <div class="info-section">
+                <h2 class="section-title">Shaxsiy Ma'lumotlar</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Ism:</span> Shamshodbek
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Familiya:</span> O'ngboyev
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Tug'ilgan joyi:</span> Qarshi, Qashqadaryo
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Tug'ilgan sana:</span> 13.08.2004
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Millati:</span> O'zbek
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Yoshi:</span> 21 yosh
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2 class="section-title">Ta'lim Yo'lim</h2>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2021-2023</div>
+                        <p><strong>Qarshi Davlat Universiteti</strong> - Matematika va informatika yo'nalishi</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023-2025</div>
+                        <p><strong>Yanka Kupala nomidagi Grodno Davlat Universiteti</strong> - Matematika va informatika (4-kurs)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2 class="section-title">Kelajakdagi Maqsadlarim</h2>
+                <div class="bio">
+                    <p>Mening asosiy maqsadim - dasturlash sohasida insonlarga foydasi tegadigan zamonaviy ilovalar va dasturlar yaratish,
+                    ko'proq bilim olish va bu bilimlarni qolgan yosh avlodga o'rgatish. Men bularga albatta erishaman, O'zimga omad!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ruscha kontent -->
+        <div id="content-ru" class="hidden">
+            <div class="info-section">
+                <h2 class="section-title">Личная Информация</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Имя:</span> Шамшодбек
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Фамилия:</span> Унгбоев
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Место рождения:</span> Карши, Узбекистан
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Дата рождения:</span> 13.08.2004
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Национальность:</span> Узбек
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Возраст:</span> 21 лет
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2 class="section-title">Мой Образовательный Путь</h2>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2021-2023</div>
+                        <p><strong>Каршинский государственный университет</strong> - Направление математики и информатики</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023-2025</div>
+                        <p><strong>Гродненский государственный университет имени Янки Купалы</strong> - Математика и информатика (4-й курс)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2 class="section-title">Мои Цели на Будущее</h2>
+                <div class="bio">
+                    <p>Моя главная цель - создавать современные приложения и программы в области программирования, которые принесут пользу людям,
+                    получать больше знаний и передавать эти знания молодому поколению. Я обязательно достигну этого, удачи мне!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
